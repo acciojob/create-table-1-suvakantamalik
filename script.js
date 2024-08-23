@@ -8,10 +8,12 @@ function insert_Row() {
 	let newRow = document.createElement("tr");
 	
 	let newCell1 = document.createElement("td");
-	newCell1.textContent = `Row${newRowCt} cell1`;
+	newCell2.textContent = `New Cell2`;
+	// newCell1.textContent = `Row${newRowCt} cell1`;
 	
 	let newCell2 = document.createElement("td");
-	newCell2.textContent = `Row${newRowCt} cell2`;
+	newCell2.textContent = `New Cell2`;
+	// newCell2.textContent = `Row${newRowCt} cell2`;
 
 	newRow.appendChild(newCell1);
 	newRow.appendChild(newCell2);
